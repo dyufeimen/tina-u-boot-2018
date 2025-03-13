@@ -225,6 +225,10 @@ extern __lcd_panel_t st7789v_cpu_panel;
 extern __lcd_panel_t st7701s_panel;
 #endif
 
+#ifdef CONFIG_LCD_SUPPORT_ST7701S_G5
+extern __lcd_panel_t st7701s_g5_panel;
+#endif
+
 #ifdef CONFIG_LCD_SUPPORT_WTL096601G03
 extern __lcd_panel_t wtl096601g03_panel;
 #endif
@@ -261,6 +265,10 @@ extern __lcd_panel_t K101_IM2BYL02_L_800X1280_mipi_panel;
 extern __lcd_panel_t jd9366ab_3_panel;
 #endif
 
+#ifdef CONFIG_LCD_SUPPORT_JD9161Z_MIPI
+extern __lcd_panel_t jd9161z_panel;
+#endif
+
 #ifdef CONFIG_LCD_SUPPORT_TFT08006
 extern __lcd_panel_t tft08006_panel;
 #endif
@@ -272,4 +280,17 @@ extern __lcd_panel_t t050k589_panel;
 #ifdef CONFIG_LCD_SUPPORT_K101_MM2QA01_A
 extern __lcd_panel_t K101_MM2QA01_A_mipi_panel;
 #endif
+
+#ifdef CONFIG_LCD_SUPPORT_ICN6202
+extern __lcd_panel_t icn6202_panel;
+#endif
+
+#ifdef CONFIG_LCD_SUPPORT_NT35510_MIPI
+extern __lcd_panel_t nt35510_panel;
+#endif
+
+#ifdef CONFIG_LCD_SUPPORT_ILI9488_CPU
+extern __lcd_panel_t ili9488_cpu_panel;
+#endif
+
 #endif
